@@ -1,0 +1,19 @@
+# Large data files
+data/raw/
+data/trimmed/
+*.fastq.gz
+*.sra
+*.fastq
+
+# Salmon index and large outputs
+ref/
+aligned/
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
